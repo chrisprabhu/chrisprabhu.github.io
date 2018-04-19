@@ -1,5 +1,56 @@
-#textalignright {
-    text-align: right;
+h1 {
+    color: #008B8B;
+}
+body {
+    background-color: #D3D3D3	;
 }
 
-/*h2 {margin-left: 45px} */
+#window{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #D3D3D3;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #f8f9fa;
+}
+
+#homebutton{
+    background-color: #008B8B;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    margin-right: 500px;
+    margin-left: 500px;
+    padding:20px;
+    padding-right:20px;
+    
+}
+
+.thumbnail {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 2px; /* Some padding */
+    width: 150px; /* Set a small width */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+}
+
+#footer1 {
+    text-align:center;
+    position:fixed;
+}
+
+#navbackground {
+    background-color:white;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    h1 {
+       font-size: 20px;
+    }
+}
