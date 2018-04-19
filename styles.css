@@ -33,7 +33,7 @@ body {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 2px; /* Some padding */
-    width: 150px; /* Set a small width */
+    width: 155px; /* Set a small width */
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -42,24 +42,54 @@ body {
 }
 
 #wrapped {
+    float:left;
     margin-right: 20px;
 }
 
 #footer1 {
     text-align:center;
-    position:fixed;
+    margin-top: 10px;
 }
 
-#navbackground {
-    background-color:white;
+html {
+    position: relative;
+    min-height: 100%;
 }
+
+footer {
+    background-color: #585858;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    border-top: 7px solid #008B8B;
+    color:#D3D3D3;
+}
+
+#marginleft {
+    margin-left: 100px;
+}
+
+
 
 @media only screen and (max-width: 1200px) {
     
     h1 {
        font-size: 20px;
     }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    
     .row {
         flex-direction: column;
       }
+}
+
+#marginleft {
+    margin-left: 20px;
 }
